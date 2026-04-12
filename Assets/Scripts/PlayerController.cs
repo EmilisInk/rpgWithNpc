@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     public LayerMask groundLayer;
     public Transform aimIndicator;
+    public bool canMove = true;
 
     [Header("Interactions")] 
     public float stoppingDistance = 2;
@@ -35,6 +36,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if(!canMove)
+        {
+            agent.isStopped = true;
+            return;
+        }
+
         HandleInput();
         HandleInteractions();
         HandleCombat();

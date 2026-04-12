@@ -1,0 +1,33 @@
+0|You’ve got the look of someone who’s either very brave… or very foolish. Which is it?|Depends who’s asking|1|I’m both|10|Just looking for work|20|None of your concern|30
+
+1|Fair answer. Names have power… and I’ve given mine away too many times already.|Then don’t give it. Give me a job instead.|2|You’re paranoid.|3|I can be trusted.|3
+
+2|…Straight to the point. Good. There’s a package. Didn’t arrive. Should have. That worries me.|Where was it going?|4|What’s in it?|5|Not my problem|END
+
+3|I can see that. Still… trust is expensive these days.|Got it|END
+
+4|Warehouse by the river. Quiet place. Too quiet.|I’ll check it out|END|Sounds like a trap|END
+
+5|…If I tell you, you’re involved. Think carefully.|Tell me|6|Forget it|END
+
+6|Something people would kill for. And have.|…|END
+
+10|…That usually means dead. But sometimes… useful.|Try me|2|Got something dangerous?|11|On second thought, never mind|END
+
+11|A courier vanished. Tough one. Not the type to just disappear.|Bandits?|END|You think he was betrayed?|12|Why should I care?|END
+
+12|…You’re sharper than you look. Check the river warehouse. And watch your back.|Got it|END
+
+20|Honest answer. Rare. I might have something… if you’re capable.|I can handle myself|END|Depends on the pay|21|What’s the catch?|END
+
+21|Half now, half if you come back alive.|Deal|22|Not good enough|END
+
+22|River warehouse. Don’t be late… or dead.|…|END
+
+30|…Careful. That attitude shortens lives.|Is that a threat?|31|I’ll be on my way|END|Try me|END
+
+31|No. Advice.|Then give me better advice|32|I don’t need it|END
+
+32|…Fine. Avoid the river tonight.|Why?|33|Now I’m definitely going|END
+
+33|Because something went wrong. And it’s spreading.|…|END
