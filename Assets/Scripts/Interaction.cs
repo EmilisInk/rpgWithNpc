@@ -16,14 +16,15 @@ public class Interaction : MonoBehaviour
     public PlayerController player;
     private bool isDialogueOpen = false;
 
+
     Dictionary<int, string[]> nodes = new Dictionary<int, string[]>();
-    //private int currentID = 0;
 
     private bool playerNearby = false;
 
     private void Start()
     {
         Canvas.gameObject.SetActive(false);
+        
         LoadTXT();
     }
 
@@ -47,6 +48,7 @@ public class Interaction : MonoBehaviour
 
     private void Update()
     {
+        
         if (playerNearby && Input.GetKeyDown(KeyCode.E))
         {
             if(!isDialogueOpen)
